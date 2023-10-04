@@ -1,24 +1,101 @@
 body {
-  background: url("murphys-new-background.jpeg") no-repeat center center fixed;
+
+}
+
+
+.middlePage {
+  background: url("brickovenfood1.jpg") no-repeat center center fixed;
   background-size: cover;
-}
-
-#topMenu {
-  background-color: #1B4F24;
-  color: white;
-  padding-bottom: 15px;
-}
-
-#centerText {
-  color: white;
+  padding-top: 190px;
   height: 500px;
 }
 
-#bottomMenu {
-  background-color: #1B4F24;
+
+#topMenu {
+  background-color: white;
   color: white;
+  padding: 0 55px;
+
+}
+
+#centerText {
+  color: darkred;
+  font-size: x-small;
+  font-family: 'Libre Baskerville', serif;
+  text-shadow: 1px 1px 2px white;
+}
+
+#middleText {
+  color: darkred;
+  height: 250px;
+  font-size: xx-small;
+  font-family: 'Libre Baskerville', serif;
+  padding-top: 100px;
+}
+
+h2 {
+  color: #b02926;
+  height: 250px;
+  font-size: 20px !important;
+  font-family: 'Libre Baskerville', serif;
+}
+
+h3 {
+  color: #b02926;
+  font-size: 22px !important;
+  font-family: 'Libre Baskerville', serif;
+}
+
+h4 {
+  color: #b02926;
+  font-size: 12px !important;
+  font-family: 'Libre Baskerville', serif;
+  padding-top: 10px;
+}
+
+h5 {
+  color: #b02926;
+  font-size: 12px !important;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+h6 {
+  color: #b02926;
+  font-size: 22px !important;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+#bottomMenu {
+  background-color: ghostwhite;
+  color: black;
+  font-family: 'Libre Baskerville', serif;
 }
 
 div.nav-item.nav-link {
-  color: white;
+  color: #b02926;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 17px !important;
+}
+
+.navwords {
+
+}
+
+.navicons {
+
+}
+
+.image-container {
+  display: flex;
+  max-width: 100%; /* Limit the width to the width of the screen */
+}
+.image-container img {
+  flex: 0 0 auto; /* Prevent images from growing or shrinking */
+  max-width: 370px; /* Limit the width of individual images to the width of the screen */
+  height: auto; /* Maintain the aspect ratio */
+  float: right;
 }
